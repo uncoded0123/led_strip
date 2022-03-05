@@ -1,7 +1,6 @@
-from machine import reset, Pin
+from machine import Pin
 from time import sleep_ms
 import neopixel
-
 
 def leds(loops=2):
     n = 300
